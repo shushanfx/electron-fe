@@ -1,0 +1,14 @@
+{
+  "name": "iqy-fe",
+  "version": "1.0.0",
+  "description": "IQIYI FE",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [
+    "trading"
+  ],
+  "author": "shushanfx",
+  "license": "MIT"
+}
