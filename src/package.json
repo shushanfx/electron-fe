@@ -1,7 +1,7 @@
 {
-  "name": "iqy-fe",
+  "name": "electron-fe",
   "version": "1.0.0",
-  "description": "IQIYI FE",
+  "description": "Electron Fe",
   "main": "main.js",
   "scripts": {
     "start": "electron ."
