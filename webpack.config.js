@@ -35,7 +35,8 @@ module.exports = {
                 loader: 'babel-loader',
                 include: [SRC_PATH],
                 query: {
-                    presets: ['es2015', 'react'],
+                    presets: ['es2015', 'es2016', 'es2017', 'stage-0', 'react'],
+                    plugins: ["transform-decorators-legacy"]
                 }
             },
             { test: /\.css$/, loader: 'style-loader!css-loader' },

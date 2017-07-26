@@ -27,7 +27,9 @@ function createWindow () {
 
   tray = new Tray(path.join(__dirname, "res", "images", "icon.png"))
   const contextMenu = Menu.buildFromTemplate([
-    {label: 'Item1', type: 'radio'},
+    {label: 'Open Dev', type: 'radio', click: function(){
+      win.webContents.openDevTools();
+    }},
     {label: 'Item2', type: 'radio'},
     {label: 'Item3', type: 'radio', checked: true},
     {label: 'Item4', type: 'radio'}
